@@ -108,6 +108,11 @@
           transform: translateY(-5px);
 }
 
+.button:disabled {
+  -webkit-filter: grayscale(0.5);
+          filter: grayscale(0.5);
+}
+
 * {
   font-family: "Roboto Condensed", sans-serif;
   margin: 0;
